@@ -142,8 +142,15 @@ a {
     width: 40px;
     height: 40px;
 }
+.icon--small{
+    width: 30px;
+    height: 30px;
+}
 .icon--primary{
     fill:var(--color-primary)
+}
+.icon--white{
+    fill: #fff;
 }
 .icon-container{
     background: color #f3f9fa; ;
@@ -153,6 +160,9 @@ a {
     display: inline-flex;
     justify-content: center;
     align-items:center ;
+}
+.icon-container--accent{
+    background: var(--color-accent);
 }
 /* Buttons */
 .btn{
@@ -284,7 +294,7 @@ display: flex;
    letter-spacing: 1px;
    display: block;
 }
-.plan--popular .car__header{
+.plan--popular .card__header{
 
 }
 .plan .list__item{
@@ -385,3 +395,29 @@ quote{
         grid-template-columns: repeat(3, 1fr);
     }
 }
+/* Testimonials */
+.testimonial{
+    padding:3rem;
+
+}
+.testimonial__image{
+    position: relative;
+}
+.testimonial__image > img{
+  width: 100%;  
+}
+.testimonial__image > .icon-container{
+    position: absolute;
+    top: 3rem;
+    right: -32px;
+}
+@media screen and (min-width:768){
+    .testimonial .quote,
+    .testimonial .quote__author{
+        font-size: 2.4rem;
+    }
+    .testimonial .quote{
+        margin-left: 6rem;
+    }
+}
+
