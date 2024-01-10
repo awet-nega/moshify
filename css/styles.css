@@ -460,3 +460,18 @@ quote{
 
     }
 }
+/* Collapsibles */
+.collapsible__header{
+  display: flex;  
+  justify-content: space-between;
+}
+.collapsible__heading{
+    margin-top: 0;
+    font-size: 3rem;
+}
+.collapsible__chevron{
+    transform: rotate(-90deg);
+}
+.collapsible__content{
+    display: none;
+}
