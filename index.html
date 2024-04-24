@@ -30,16 +30,16 @@
    <section class="block block--dark block--skewed-left hero">
     <div class="container grid grid--1x2">
         <header class=" block__header hero__content">
-            <h1 class="block__heading">Cloud Hosting for Pros</h1>
+            <h1 class="block__heading" data-aos="zoom-in-left"="">Cloud Hosting for Pros</h1>
             <p class="hero__tagline">Deploy your websites in less than 60 seconds.</p>
             <a href="" class="btn btn--accent btn--stretched">Get Started</a>
         </header>
-        <img class="hero__image" src="images/banner.png" alt="">
+        <img class="hero__image" src="images/banner.png" alt="" data-aos="zoom-in-right">
     </div>
   </section>
   <section class="block container block-domain">
     <header class="block__header">
-    <h2>Starting at $9 per month</h2>
+    <h2 data-aos="zoom-in-up">Starting at $9 per month</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, ratione!</p>
 </header>
 <div class="input-group">
@@ -131,11 +131,11 @@
 </section>
 <section class="block container">
   <header class="block_header">
-      <h2>Host on the cloud to keep Growing</h2>
+      <h2 data-aos="zoom-in">Host on the cloud to keep Growing</h2>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, facere.</p>
   </header>
   <article class="grid grid--1x2 feature">
-     <div class="feature__content">
+     <div class="feature__content" data-aos="fade-right">
          <span class="icon-container">
              <svg class="icon icon--primary">
                  <use xlink:href="images/sprite.svg#easy"></use>
@@ -148,13 +148,13 @@
          </p>
          <a href="#" class="link-arrow">Learn More</a>
      </div>
-     <img class="feature__image" src="images/easy.jpg" alt="">
+     <img class="feature__image" src="images/easy.jpg" alt="" data-aos="zoom-in-left">
   </article>
 
 <section class="block container">
 <article class="grid grid--1x2 feature">
-  <img class="feature__image" src="images/fast.jpg" alt="">
- <div class="feature__content">
+  <img class="feature__image" src="images/fast.jpg" alt="" data-aos="zoom-in-left" >
+ <div class="feature__content" data-aos="zoom-in-right">
      <span class="icon-container">
          <svg class="icon icon--primary">
              <use xlink:href="images/sprite.svg#computer"></use>
@@ -172,7 +172,7 @@
 </section>
 <section class="block container">
 <article class="grid grid--1x2 feature">
- <div class="feature__content">
+ <div class="feature__content" data-aos="zoom-in-left">
      <span class="icon-container">
          <svg class="icon icon--primary">
              <use xlink:href="images/sprite.svg#wordpress"></use>
@@ -185,13 +185,13 @@
      </p>
      <a href="#" class="link-arrow">Learn More</a>
  </div>
- <img class="feature__image" src="images/wordpress.jpg" alt="">
+ <img class="feature__image" src="images/wordpress.jpg" alt="" data-aos="zoom-in-right">
 </article>
 </section>
 <section class="block container">
 <article class="grid grid--1x2 feature">
   
-  <picture>
+  <picture data-aos="zoom-in-left">
     <source
       type="image/webp"
       srcset="images/support.webp 1x, images/support@2x.webp 2x"
@@ -202,7 +202,7 @@
     />
     <img class="feature__image" src="images/support@2x.jpg" alt="" />
   </picture>
-  <div class="feature__content">
+  <div class="feature__content" data-aos="zoom-in-left">
     <span class="icon-container">
       <svg class="icon icon--primary">
         <use href="images/sprite.svg#clock"></use>
@@ -225,7 +225,7 @@
     
    
     <!-- showcase block -->
-    <section class="block block--dark block--skewed-right block-showcase">
+    <section class="block block--dark block--skewed-right block-showcase" data-aos="zoom-in">
       <header class="block__header">
         <h2>User-friendly Control Panel</h2>
       </header>
@@ -302,7 +302,7 @@
           <div class="card testimonial">
             <div class="grid grid--1x2">
                 <div class="testimonial__image">
-                    <img src="images/testimonial.jpg" alt="A happy, smiling customer">
+                    <img src="images/testimonial.jpg" alt="A happy, smiling customer" data-aos="zoom-in-right">
                     <span class="icon-container icon-container--accent">
                         <svg class="icon icon--white icon--small">
                             <use xlink:href="images/sprite.svg#quotes"></use>
@@ -312,7 +312,7 @@
         
                 </div>
                 
-                <blockquote class="quote">
+                <blockquote class="quote" data-aos="zoom-in-left">
                     <p class="quote__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                          Deleniti fugiat consequatur voluptatibus aliquam, 
                          dolore eos porro est facere provident possimus.
@@ -338,7 +338,7 @@
     </section>
 
     <!-- Callout -->
-    <div class="callout callout--primary">
+    <div class="callout callout--primary" data-aos="zoom-in">
       <div class="grid grid--1x2">
         <div class="callout__content">
           <h2 class="callout_heading">Ready to Get Started?</h2>
@@ -429,6 +429,10 @@
     </footer>
    
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 </body>
 </html>
