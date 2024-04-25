@@ -7,6 +7,7 @@
     --color-body-darker:#5c5577;
     --color-border:#ccc;
     --border-radius:30px;
+}
 
 /*Typography*/
 ::selection{
@@ -18,7 +19,7 @@
 *::before{
     box-sizing: border-box;
 }
-} 
+ 
 html{
     font-size: 62.5%;
 }
@@ -111,7 +112,7 @@ a {
     font-size: 1.6rem;
     padding: 0.5rem 1.5rem;
 }
-@media screen and (min-width:1024){
+@media screen and (min-width:1024px){
     .badge{
         font-size: 1.5rem;
     }
@@ -162,7 +163,7 @@ a {
 
 }
 .icon-container{
-    background: color #f3f9fa; ;
+    background: #f3f9fa; ;
     width:64px;
     height: 64px;
     border-radius: 100%;
@@ -232,7 +233,7 @@ a {
     display:inline-block;
 
 }
-@media scree and (min-width:1024px){
+@media screen and (min-width:1024px){
 .btn{
     font-size: 1.5rem;
 }
@@ -344,7 +345,7 @@ display: flex;
 .plan--popular:hover {
    transform: scale(1.15);
 }
-@media screen and (min-width:1024) {
+@media screen and (min-width:1024px) {
     .plan__name{
         font-size: 1.4rem;
     }
@@ -352,7 +353,7 @@ display: flex;
         font-size: 5rem;
     }
     .plan__billing-cycle{
-        font: size 1.6rem;
+        font-size:  1.6rem;
     }
     .plan__description{
         font-size: 1.7rem;
@@ -452,7 +453,7 @@ quote{
     top: 3rem;
     right: -32px;
 }
-@media screen and (min-width:768){
+@media screen and (min-width:768px){
     .testimonial .quote,
     .testimonial .quote__author{
         font-size: 2.4rem;
@@ -489,7 +490,7 @@ quote{
 }
 .callout_heading{
     color: #fff;
-    
+
 }
 
 @media screen and (min-width:768px){
@@ -686,7 +687,7 @@ quote{
     margin: 0 auto;
 
 }
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px){
    .block-domain__prices{
     grid-template-columns: repeat(auto-fit,minmax(10rem, 1fr));
 
